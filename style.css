@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Long+Cang&family=Montserrat:wght@300;400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 1.3125rem;
+  line-height: 1.2;
+}
+body {
+  background: #0000 no-repeat center center fixed;
+  background-size: cover;
+}
+table {
+  border-collapse: collapse;
+  text-align: center;
+  width: 100%;
+  opacity: 0.6;
+  /* to make sure the table is not wider than the div container */
+  table-layout: fixed;
+}
+caption {
+  opacity: 1;
+  font-size: 3rem;
+  font-weight: 700;
+  padding-block: 2rem;
+  text-transform: uppercase;
+}
+table tr,
+#length-duration,
+#form-container {
+  background: #f8f8f8;
+  border: 1px solid #ccc;
+}
+table th,
+table td {
+  padding: 0.625em;
+}
+table th,
+#length-duration,
+#form-container {
+  font-size: 0.85em;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+#length-duration,
+#form-container {
+  width: 100%;
+  opacity: 0.6;
+  padding: 1rem;
+  margin-top: 1rem;
+  font-weight: 700;
+  text-align: center;
+}
+.row-selected {
+  background-color: #b8e3fd;
+}
+i.fa-sort {
+  font-size: 1.5rem;
+  align-items: center;
+}
+i.fa-person-hiking {
+  font-size: 2.5rem;
+}
+i.fa-pen-to-square,
+i.fa-circle-check,
+i.fa-trash-can {
+  padding: 0.5rem;
+}
+i.fa-sort,
+i.fa-pen-to-square,
+i.fa-circle-check,
+i.fa-trash-can {
+  display: flex;
+  flex-flow: column nowrap;
+  cursor: pointer;
+}
+#location {
+  margin-top: 1.5rem;
+}
+#add,
+#cancel {
+  cursor: pointer;
+  align-self: center;
+  font-weight: 700;
+  font-size: 1.25rem;
+  padding: 1rem;
+  border-radius: 1.25rem;
+  opacity: 1;
+  color: white;
+  background-color: black;
+}
+#add:hover {
+  background-color: green;
+}
+#cancel:hover {
+  background-color: red;
+}

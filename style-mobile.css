@@ -1,0 +1,70 @@
+/* responsive site ohhh yeahhhhh */
+@media screen and (max-width: 1080px) {
+  table th {
+    font-size: 0.8rem;
+  }
+  table td {
+    font-size: 0.9rem;
+  }
+}
+@media screen and (max-width: 900px) {
+  table th {
+    font-size: 0.6rem;
+  }
+  table td {
+    font-size: 0.75rem;
+  }
+  i.fa-sort {
+    font-size: 1rem;
+  }
+  i.fa-person-hiking {
+    font-size: 2rem;
+  }
+  #add,
+  #cancel {
+    display: flex;
+    margin: auto;
+  }
+  input {
+    padding: 0.5rem;
+    margin-block: 1rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  table {
+    border: 0;
+  }
+  table caption {
+    font-size: 1.3em;
+  }
+  table thead {
+    /* to remove headers (aesthetically prettier) */
+    display: none;
+  }
+  table tr {
+    border-bottom: 3px solid #ddd;
+    display: block;
+    margin-bottom: 0.625em;
+  }
+  table td {
+    border-bottom: 1px solid #ddd;
+    display: block;
+    font-size: 0.8em;
+    text-align: right;
+  }
+  table td:before {
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  table td:last-child {
+    border-bottom: 0;
+  }
+  #location {
+    margin: 0;
+  }
+  #form-content {
+    font-size: 1rem;
+  }
+}
